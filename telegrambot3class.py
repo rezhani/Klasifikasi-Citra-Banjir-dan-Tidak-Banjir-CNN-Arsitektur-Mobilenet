@@ -231,7 +231,6 @@ def saran(updater, context):
     updater.message.reply_text('Terima kasih telah menggunakan Bot Deteksi Banjir Samarinda. Mohon kesediaan untuk mengisi https://forms.gle/AFSF5HTMjeyj3HW5A')
 
 updater = Updater("5794009909:AAErEEOB4PFAybzq0a-Wl9mAjQSwG8NJFzA")
-#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 OPENAI
 
 dispatch = updater.dispatcher
 dispatch.add_handler(CommandHandler("start", start))
